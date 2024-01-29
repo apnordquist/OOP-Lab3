@@ -16,6 +16,6 @@ namespace Lab3
 
         //mothods
         void Eat();
-        void Cry();
+        string Cry();
     }
 }

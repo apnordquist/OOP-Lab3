@@ -26,8 +26,7 @@ namespace Lab3;
             Console.WriteLine("Animal's Height: " + Ember.Height + " inches");
             Console.WriteLine("Animal's Age: " + Ember.Age + " years old");
             Ember.Eat();
-            Ember.Cry();
-            Console.WriteLine();
+            Console.WriteLine(Ember.Name + " goes " + Ember.Cry() + "\n");
 
             //Riley object methods 
             Console.WriteLine("Animal's Name: " + Riley.Name);
@@ -35,9 +34,9 @@ namespace Lab3;
             Console.WriteLine("Animal's Height: " + Riley.Height + " inches");
             Console.WriteLine("Animal's Age: " + Riley.Age + " years old");
             Riley.Eat();
-            Riley.Cry();
-            Console.WriteLine();
+            Console.WriteLine(Riley.Name + " goes " + Riley.Cry() + "\n");
 
+            //create and print list
             List<Animal> animals = new List<Animal>();
             animals.Add(Ember);
             animals.Add(Murdoch);

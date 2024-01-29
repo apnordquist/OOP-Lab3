@@ -17,9 +17,9 @@ namespace Lab3
         {
             Console.WriteLine("Dogs eat meat.");
         }
-        public void Cry()
+        public string Cry()
         {
-            Console.WriteLine("Woof!");
+            return "Woof!";
         }
     }
 }
